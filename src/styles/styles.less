@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700.css');
+body {
+  margin:auto auto;
+  padding: 0;
+}
+.app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  text-align: center;
+  width: 800px;
+  height: 100vh;
+  div.container {
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100/2%;
+    float: left;
+    position: relative;
+    .sick_count_container {
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 50%;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 700;
+      height: 40px;
+      line-height: 40px;
+      position: absolute;
+      right: 0px;
+      text-align: center;
+      bottom: -10px;
+      vertical-align: middle;
+      width: 40px;
+      z-index: 1;
+    }
+    h1 {
+      font-family: Roboto;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 2px;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 8px;
+        .person {
+          // https://codepen.io/sosuke/pen/Pjoqqp
+          transition: filter 1000ms linear;
+          &.grey {
+            opacity: 0.3;
+            filter: invert(97%) sepia(5%) saturate(0%) hue-rotate(158deg) brightness(83%) contrast(81%);
+          }
+          &.red {
+            filter: invert(15%) sepia(95%) saturate(7490%) hue-rotate(342deg) brightness(85%) contrast(104%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@import 'basics.less';

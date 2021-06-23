@@ -1,0 +1,31 @@
+[{
+  "name":"Original virus in Wuhan",
+  "r":"2.4–2.6",
+  "value_max":2.4,
+  "value_min":2.6
+},{
+  "name":"Europe's first wave",
+  "r":"3",
+  "value_max":3,
+  "value_min":3
+},{
+  "name":"Alpha",
+  "r":"4–5",
+  "value_max":4,
+  "value_min":5
+},{
+  "name":"Delta",
+  "r":"5–8",
+  "value_max":5,
+  "value_min":8
+},{
+  "name":"Mumps",
+  "r":"12",
+  "value_max":12,
+  "value_min":12
+},{
+  "name":"Measles",
+  "r":"18",
+  "value_max":18,
+  "value_min":18
+}]
