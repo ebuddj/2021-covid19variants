@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700.css);
+body {
+  margin: auto auto;
+  padding: 0;
+}
+.app___2khK2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  text-align: center;
+  width: 800px;
+  height: 100vh;
+}
+.app___2khK2 div.container___ki5VE {
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.app___2khK2 div.container___ki5VE .sick_count_container___yMXD3 {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  bottom: -10px;
+  vertical-align: middle;
+  width: 40px;
+  z-index: 1;
+}
+.app___2khK2 div.container___ki5VE h1 {
+  font-family: Roboto;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.app___2khK2 div.container___ki5VE ul {
+  margin: 0;
+  padding: 0;
+}
+.app___2khK2 div.container___ki5VE ul li {
+  margin: 2px;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 8px;
+}
+.app___2khK2 div.container___ki5VE ul li .person___3nzon {
+  transition: filter 1000ms linear;
+}
+.app___2khK2 div.container___ki5VE ul li .person___3nzon.grey___3fySf {
+  opacity: 0.3;
+  filter: invert(97%) sepia(5%) saturate(0%) hue-rotate(158deg) brightness(83%) contrast(81%);
+}
+.app___2khK2 div.container___ki5VE ul li .person___3nzon.red___34VaH {
+  filter: invert(15%) sepia(95%) saturate(7490%) hue-rotate(342deg) brightness(85%) contrast(104%);
+}
+/* General styles */
+.clearfix___1yHqr {
+  zoom: 1;
+}
+.clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both___a0DL_ {
+  clear: both;
+}
+.hidden___1aMNf {
+  display: none;
+}
+.nowrap___2n1o8 {
+  white-space: nowrap;
+}
+
