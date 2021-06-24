@@ -14,7 +14,7 @@
 * [Vaccines Today](https://www.vaccinestoday.eu/stories/what-is-r0/)
 
 **EBU links**
-* []()
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/9bdb06ff85ffb22dac4f39f9df32b06f/2021_10025919)
 
 **Used by**
 * []()
