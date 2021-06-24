@@ -2,7 +2,11 @@
 
 **Live demo** https://ebuddj.github.io/2021-covid19variants/
 
-## Project title
+## Comparison of Covid-19 variant's R-values (EBU)
+
+* You can change the initial per cent for sick people: https://ebuddj.github.io/2021-covid19variants/#percent=7
+* You can enable or disable the titles: https://ebuddj.github.io/2021-covid19variants/#titles=false
+* Or you can change both: https://ebuddj.github.io/2021-covid19variants/#percent=7,titles=false
 
 **Sources**
 * [BBC](https://www.bbc.com/news/health-57431420)
