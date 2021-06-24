@@ -11,8 +11,15 @@ import CountUp from 'react-countup';
 import * as d3 from 'd3';
 
 // Define the who are initially sick.
+function getHashValue(key) {
+  let matches = location.hash.match(new RegExp(key+'=([^&]*)'));
+  return matches ? matches[1] : null;
+}
+
+const show_titles = getHashValue('titles') ? getHashValue('titles') : 'true';
+
 const total_count = 210;
-const sick_percent = 0.05
+const sick_percent = getHashValue('percent') ? (parseInt(getHashValue('percent')) / 100) : 0.05;
 const initial_sick_count = total_count * sick_percent;
 const initial_sick = new Set();
 while(initial_sick.size < initial_sick_count) {
@@ -104,7 +111,7 @@ class App extends Component {
           this.state.elements && this.state.elements.map((element, i) => {
 
             return (
-              <div className={style.container} key={i}><div className={style.sick_count_container}><CountUp useEasing={false} duration={1.5} start={5} end={this.state.sick_count_percents[i]} />%</div><h1>{this.state.data[i].name}, R={this.state.data[i].r}</h1><ul>{element}</ul></div>
+              <div className={style.container} key={i}><div className={style.sick_count_container}><CountUp useEasing={false} duration={1.5} start={sick_percent * 100} end={this.state.sick_count_percents[i]} />%</div><h1>{(show_titles === 'true') ? this.state.data[i].name + ', ' : ''}R={this.state.data[i].r}</h1><ul>{element}</ul></div>
             )
           })
         }
