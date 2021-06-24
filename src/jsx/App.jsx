@@ -111,7 +111,7 @@ class App extends Component {
           this.state.elements && this.state.elements.map((element, i) => {
 
             return (
-              <div className={style.container} key={i}><div className={style.sick_count_container}><CountUp useEasing={false} duration={1.5} start={sick_percent * 100} end={this.state.sick_count_percents[i]} />%</div><h1>{(show_titles === 'true') ? this.state.data[i].name + ', ' : ''}R={this.state.data[i].r}</h1><ul>{element}</ul></div>
+              <div className={style.container} key={i}><div className={style.sick_count_container}><CountUp useEasing={false} duration={1.5} start={sick_percent * 100} end={this.state.sick_count_percents[i]} />%</div><h1>{(show_titles === 'true') ? this.state.data[i].name + ', ' : ''}R<sub>0</sub>={this.state.data[i].r}</h1><ul>{element}</ul></div>
             )
           })
         }

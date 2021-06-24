@@ -10,6 +10,8 @@
 
 **Sources**
 * [BBC](https://www.bbc.com/news/health-57431420)
+* [BBC](https://www.bbc.com/news/health-52473523)
+* [Vaccines Today](https://www.vaccinestoday.eu/stories/what-is-r0/)
 
 **EBU links**
 * []()
