@@ -43,6 +43,10 @@ body {
   text-transform: uppercase;
   font-size: 20px;
 }
+.app___2khK2 div.container___ki5VE h1 sub {
+  vertical-align: sub;
+  font-size: small;
+}
 .app___2khK2 div.container___ki5VE ul {
   margin: 0;
   padding: 0;

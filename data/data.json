@@ -20,12 +20,12 @@
   "value_min":8
 },{
   "name":"Mumps",
-  "r":"12",
-  "value_max":12,
+  "r":"10–12",
+  "value_max":10,
   "value_min":12
 },{
   "name":"Measles",
-  "r":"18",
-  "value_max":18,
+  "r":"16–18",
+  "value_max":16,
   "value_min":18
 }]
