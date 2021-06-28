@@ -18,6 +18,7 @@
 
 **Used by**
 * RAI/Italy on RAI Uno
+* RAI/Italy on RAI 3
 
 ## How to use
 
